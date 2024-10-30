@@ -1,0 +1,27 @@
+/* Styles for the operations panel and excel display */
+.operations-panel {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.excel-container {
+    margin-top: 70px; /* Space for the operations panel */
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+#sheetData {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
